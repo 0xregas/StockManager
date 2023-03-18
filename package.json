@@ -1,0 +1,27 @@
+{
+  "name": "stockmanager",
+  "version": "1.0.0",
+  "description": "Build to manage and predict returns on Certificados de Aforro Portugal but looking forward to expand.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "NODE_ENV=dev nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xRegas/StockManager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xRegas/StockManager/issues"
+  },
+  "homepage": "https://github.com/0xRegas/StockManager#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
