@@ -3,9 +3,19 @@ version: '3'
 services:
   api:
     container_name: stock-manager-api
-    build: .
+    working_dir: /app/backend
+    image: node:16
     command: npm run watch
     ports:
       - "3124:3000"
     volumes:
       - ./backend:/app/backend
+  frontend:
+    container_name: stock-manager-frontend
+    working_dir: /app/frontend
+    image: node:16
+    command: npm run serve
+    ports:
+      - "4444:8080"
+    volumes:
+      - ./frontend:/app/frontend
