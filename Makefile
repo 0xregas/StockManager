@@ -1,8 +1,8 @@
 setup:
-	@docker-compose run api npm i
+	docker compose run api npm i
 
 run-api:
-	@docker-compose up api
+	docker compose up api
 
 enter:
-	@docker-compose run api bash
+	docker compose run api bash
