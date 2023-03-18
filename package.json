@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/0xRegas/StockManager#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "helmet": "^6.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.21"
