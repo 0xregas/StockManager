@@ -1,5 +1,6 @@
 setup:
-	docker compose run api npm i
+	docker compose run --rm api npm i
+	docker compose run --rm frontend npm i
 
 run-api:
 	docker compose up api
