@@ -15,3 +15,5 @@ To enter docker container
 ```makefile
 make enter
 ```
+TO DO:
+config file per project
