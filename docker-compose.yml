@@ -4,7 +4,7 @@ services:
   api:
     container_name: stock-manager-api
     working_dir: /app/backend
-    image: node:16
+    build: ./backend
     command: npm run watch
     ports:
       - "3124:3000"
@@ -13,7 +13,7 @@ services:
   frontend:
     container_name: stock-manager-frontend
     working_dir: /app/frontend
-    image: node:16
+    build: ./frontend
     command: npm run serve
     ports:
       - "4444:8080"
